@@ -1,0 +1,94 @@
+
+
+.nav__bar{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: lightgray;
+    align-items: center;
+    border-radius: 4px;
+   
+}
+
+.nav__list{
+    display: flex;
+ list-style: none;
+  flex-wrap: wrap;
+  align-content: space-between;
+  
+   
+  
+ 
+}
+.nav__list a{
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+.logu{
+    margin-left: 20px;
+}
+
+.book__display{
+    /* background-color: red; */
+    width: 1000px;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15px;
+}
+.single__book{
+    width: 300px;
+    background-color: lightgray;
+    height: 340px;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 10px;
+
+    
+}
+.single__book .book__image{
+    background-color: blue;
+    width: 280px;
+    height: 220px;
+    border-radius: 4px;
+}
+.footer__section{
+    display: flex;
+    justify-content: space-between;
+    background-color:lightgray;
+    height: 300px;
+    width: 1000px;
+    margin: auto;
+}
+
+.our__team{
+    width: 1000px;
+    display: flex;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 15px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.team__member{
+    width: 300px;
+    background-color: lightgray;
+    height: 340px;
+    margin: 5px;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.team__image{
+    background-color: blue;
+    width: 280px;
+    height: 220px;
+    border-radius: 8px;
+
+}
